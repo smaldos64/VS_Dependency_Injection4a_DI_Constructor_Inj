@@ -12,12 +12,11 @@ using System.Threading.Tasks;
 // Vores injector klasse (CustomerService) står for at injecte konstruktoren i vores Business logik 
 // klasse. Vi kan også injecte direkte ind i vores Business logik klasse, som det også er vist i 
 // eksemplet her. Men så går vi lidt uden om konceptet med at have en injector klasse. Men det er selvfølgelig lettere
-// at gøre det på denne måde. Som det ses i eksemplet her, er det lettere at ændre Dataklasse, hvis man direkte laver 
+// at gøre det på denne måde, som det også ses i eksemplet her, hvor det lettere at ændre Dataklasse, hvis man direkte laver 
 // et objekt af vores business logik klasse. 
 // Vil vi opnå det samme med en CustomerService klasse, er vi også nødt til at lave f.eks. constructor injection i
 // denne klasse også. Dette er også vist herunder for klassen CustomerService_Constructor_Injection_Data og objekter 
 // af denne klasse.
-
 
 namespace Dependency_Injection4_DI_Constructor_Injection
 {
