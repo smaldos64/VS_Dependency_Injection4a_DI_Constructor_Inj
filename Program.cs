@@ -115,10 +115,10 @@ namespace Dependency_Injection4_DI_Constructor_Injection
             Console.WriteLine(CustomerService_Object_DI1.GetCustomerName(14));
 
             CustomerBusinessLogic CustomerBusinessLogic_Object = new CustomerBusinessLogic(new CustomerDataAccess());
-            Console.WriteLine(CustomerBusinessLogic_Object.ProcessCustomerData(16));
+            Console.WriteLine(CustomerBusinessLogic_Object.ProcessCustomerData(16) + " => Direkte oprettelse af CustomerBusinessLogic objekt");
 
             CustomerBusinessLogic CustomerBusinessLogic_Object1 = new CustomerBusinessLogic(new CustomerDataAccess1());
-            Console.WriteLine(CustomerBusinessLogic_Object1.ProcessCustomerData(18));
+            Console.WriteLine(CustomerBusinessLogic_Object1.ProcessCustomerData(18) + " => Direkte oprettelse af CustomerBusinessLogic objekt");
             Console.ReadLine();
         }
     }
